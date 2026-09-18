@@ -1,8 +1,22 @@
-# GPUtop
+<p align="center">
+  <img src="assets/GPUtop.png" width="180" alt="GPUtop logo">
+</p>
 
-**GPUtop** is a lightweight, btop-inspired real-time NVIDIA GPU monitor for Windows.
+<h1 align="center">GPUtop</h1>
 
-It provides a compact terminal dashboard for monitoring GPU load, VRAM usage, temperature, power, clocks, PCIe status, GPU processes, and session statistics.
+<p align="center">
+  A lightweight, btop-inspired real-time NVIDIA GPU monitor for Windows.
+</p>
+
+<p align="center">
+  <a href="https://github.com/nabilsellamiAi/GPUtop/releases/download/v1.0.0/GPUtop.exe"><strong>Download GPUtop.exe</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/nabilsellamiAi/GPUtop/releases/tag/v1.0.0">v1.0.0 Release</a>
+</p>
+
+![GPUtop dashboard](assets/GPUtop-dashboard.png)
+
+GPUtop provides a compact terminal dashboard for monitoring GPU load, VRAM usage, temperature, power, clocks, PCIe status, GPU processes, and session statistics.
 
 ## Features
 
@@ -20,9 +34,15 @@ It provides a compact terminal dashboard for monitoring GPU load, VRAM usage, te
 - Keyboard controls
 - Standalone Windows executable
 
-## Requirements
+## Download for Windows
 
-GPUtop currently targets **Windows + NVIDIA GPUs**.
+Download the latest standalone build:
+
+**[GPUtop.exe — v1.0.0](https://github.com/nabilsellamiAi/GPUtop/releases/download/v1.0.0/GPUtop.exe)**
+
+Requirements: Windows, an NVIDIA GPU, and an NVIDIA graphics driver. Python is not required for the standalone executable.
+
+## Run from source
 
 When running from source you need Python 3, an NVIDIA graphics driver, and the packages in `requirements.txt`.
 
