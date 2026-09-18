@@ -28,7 +28,7 @@ When running from source you need Python 3, an NVIDIA graphics driver, and the p
 
 ```powershell
 python -m pip install -r requirements.txt
-python gputop.py
+python GPUtop.py
 ```
 
 ## Controls
